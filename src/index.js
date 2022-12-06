@@ -1,13 +1,16 @@
 import React from "react";
 import ReactDOM from "react-dom";
-import WeatherApp from "./WeatherApp.js";
+import "./index.css";
+import App from "./App";
+import "normalize.css";
 
-// 這支 CSS 檔的樣式會作用到全域
-import "./styles.css";
+import * as serviceWorkerRegistration from "./serviceWorkerRegistration";
 
-function App() {
-  return <WeatherApp />;
-}
+ReactDOM.render(
+  <>
+    <App />
+  </>,
+  document.getElementById("root")
+);
 
-const rootElement = document.getElementById("root");
-ReactDOM.render(<App />, rootElement);
+serviceWorkerRegistration.register();
