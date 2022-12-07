@@ -9,21 +9,23 @@
 
 ## Instructions_
 #### 1. Install npm
-#### 2. Open (Terminal)，Copy (Clone)
-  git clone https://github.com/vh5202002/book-app.git
+#### 2. Open (Terminal)，Copy (Clone) 
+	git clone https://github.com/vh5202002/book-app.git
 #### 3. Go to the file
-  cd book-app
+	cd book-app
 #### 4. Install required packages
-  npm install
-  npm install react-router-dom@6
-  npm install --save react-router-dom
-  npm install react-icons --save
-#### 5. Run the app
-  npm run start
+	npm install
+   	npm install react-router-dom@6
+   	npm install --save react-router-dom
+   	npm install react-icons --save
+#### 5. Run the app	
+	npm run start
 #### 6. Open http://localhost:3000/
 #### 7. Stop the app
-  ctrl + c ( mac : command + .)
+	ctrl + c ( mac : command + .)
 
 ## Development tools_
-  Node.js v16.15.1
-  npm 8.19.2
+	Node.js v16.15.1
+	npm 8.19.2
+  
+  
